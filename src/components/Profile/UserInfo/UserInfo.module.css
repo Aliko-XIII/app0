@@ -1,0 +1,14 @@
+.user {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .user_info {
+    display: inline;
+  }
+  
+  .avatar_img {
+    max-width: 20%;
+  }

@@ -1,0 +1,15 @@
+.contacts_block {
+    grid-area: c;
+    background-color: darkkhaki;
+    border-right: 2px black solid;
+}
+
+.contacts_block header {
+    margin: 20px;
+    font-weight: bold;
+}
+
+.contacts {
+    margin: 20px;
+    padding: 0;
+}

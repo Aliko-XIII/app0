@@ -1,0 +1,10 @@
+.messages_block {
+    grid-area: m;
+    background-color: darkorange;
+    padding: 20px;
+}
+
+.messages {
+
+}
+

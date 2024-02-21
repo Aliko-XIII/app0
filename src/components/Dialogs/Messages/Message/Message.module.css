@@ -1,0 +1,34 @@
+.message {
+    display: grid;
+    grid-template-areas: "user message";
+    grid-template-rows: 1fr;
+    grid-template-columns: 0fr 1fr;
+    margin-top: 20px;
+}
+
+.message_user {
+    display: grid;
+    grid-template-areas: "img"
+    "name";
+    grid-template-rows: 1fr 0.3fr;
+    grid-template-columns: 1fr;
+    width: 20%;
+}
+
+.user_img {
+    grid-area: img;
+    height: 100px;
+}
+
+
+.user_name {
+    grid-area: name;
+    bottom: 0;
+
+}
+
+.message_text {
+    overflow: clip;
+    word-wrap: break-word;
+    margin-left: 20px;
+}

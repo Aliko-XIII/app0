@@ -1,0 +1,17 @@
+.post_create {
+    padding: 0;
+}
+
+.new_post_area {
+    width: 100%;
+    border: 0;
+    background-color: gainsboro;
+    padding: 10px;
+    box-sizing: border-box;
+
+}
+
+.send_btn {
+    display: block;
+    margin-left: auto;
+}

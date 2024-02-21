@@ -1,0 +1,19 @@
+.friend_profile {
+    display: grid;
+    grid-template-areas: "img"
+        "name";
+    grid-template-rows: 1fr 0.3fr;
+    grid-template-columns: 1fr;
+    width: 20%;
+}
+
+.friend_avatar {
+    display: block;
+    grid-area: img;
+    height: 20px;
+}
+
+.friend_name {
+    grid-area: name;
+    bottom: 0;
+}
