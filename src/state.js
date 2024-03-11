@@ -83,6 +83,20 @@ const state = {
             },
         ],
     },
+    navigationBar: {
+        friends: [
+            {
+                name: 'Name1',
+            },
+            {
+                name: 'Name2',
+            },
+            {
+                name: 'Name3',
+            },
+
+        ],
+    },
 };
 
 export default state

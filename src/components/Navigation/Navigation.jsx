@@ -4,7 +4,7 @@ import NavItem from './NavItem/NavItem';
 
 
 
-const Navigation = () => {
+const Navigation = (props) => {
     return (<nav className={s.nav}>
         <NavItem name='Profile' link='profile' />
         <NavItem name='Messages' link='messages' />
@@ -12,9 +12,10 @@ const Navigation = () => {
         <NavItem name='Music' link='music' />
         <NavItem name='Settings' link='settings' />
 
-        <NavFriends />
-
+        <NavFriends friends={props.state.friends} />
     </nav>);
 }
+
+
 
 export default Navigation;

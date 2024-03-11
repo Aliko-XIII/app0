@@ -12,7 +12,7 @@ const App = (props) => {
     return (<BrowserRouter>
         <div className={s.app_wrapper}>
             <Header />
-            <Navigation />
+            <Navigation state ={props.appState.navigationBar}/>
             <div className={s.content}>
                 <Routes>
                     <Route element={<Profile state={props.appState.profilePage} />} path={'/profile'} />
